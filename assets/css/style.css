@@ -1,0 +1,282 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 56px;
+    padding: 0.5rem 0;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    padding: 0 44px;
+}
+header nav a{
+    text-align: end;
+    width: 15%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 20px 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header nav ul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 25px;
+}
+header nav ul li{
+    list-style: none;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 17px;
+    color: #ffffffc8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.part1{
+    width: 80%;
+    height: 43vh;
+    margin: 3rem 0;
+    display: flex;
+}
+.part1 .img{
+    width: 60%;
+    height: 100%;
+}
+
+.part1 .img img{
+    width: 694px;
+    height: 308px;
+    border-radius: 0.25rem;
+}
+
+.part1 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.part1 .text h1{
+    font-size: 40px;
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.part1 .text p{
+    font-size: 17.5px;
+    color: #212529;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 22px;
+
+}
+
+.part1 .text button{
+    width: 125px;
+    height: 38px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 16px;
+
+}
+    
+.part1 .text button:hover{
+    background-color: #0b5ed7;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.txtbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 106px;
+    width: 80%;
+    background-color: rgb(97, 97, 97);
+    border-radius: 0.25rem;
+    margin-bottom: 48px;
+}
+.txtbox p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.boxs{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 289px;
+}
+.boxs .box1{
+    width: 30%;
+    height: 249px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.boxs .box1 .text{
+    width: 100%;
+    height: 201px;
+    padding: 16px;
+}
+
+.boxs .box1 .text h1{
+    color: #212529;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.boxs .box1 .text p{
+    color: #212529;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.boxs .box1 .btn{
+    width: 100%;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 6px 18px;
+}
+.boxs .box1 .btn button{
+    width: 79px;
+    height: 31px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 14px;
+}
+
+.boxs .box2{
+    width: 30%;
+    height: 249px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.boxs .box2 .text{
+    width: 100%;
+    height: 201px;
+    padding: 16px;
+}
+
+.boxs .box2 .text h1{
+    color: #212529;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.boxs .box2 .text p{
+    color: #212529;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.boxs .box2 .btn{
+    width: 100%;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 6px 16px;
+}
+.boxs .box2 .btn button{
+    width: 79px;
+    height: 31px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 14px;
+}
+
+.boxs .box3{
+    width: 30%;
+    height: 249px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.boxs .box3 .text{
+    width: 100%;
+    height: 201px;
+    padding: 16px;
+}
+
+.boxs .box3 .text h1{
+    color: #212529;
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.boxs .box3 .text p{
+    color: #212529;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.boxs .box3 .btn{
+    width: 100%;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 6px 16px;
+}
+.boxs .box3 .btn button{
+    width: 79px;
+    height: 31px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 14px;
+}
+
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+}
